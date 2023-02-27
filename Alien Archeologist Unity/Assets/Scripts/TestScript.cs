@@ -41,7 +41,7 @@ public class TestScript : MonoBehaviour
         }
         */
 
-        if (messageChoice > 0 && messageChoice <= messages.Length - 1) 
+        if (messageChoice > 0 && messageChoice < messages.Length) 
         {
             Debug.Log(messages[messageChoice - 1]);
         }

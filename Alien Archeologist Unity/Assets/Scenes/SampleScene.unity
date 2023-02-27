@@ -238,6 +238,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startMessage: Celeste is the best game
   updateMessage: Strawberry Jam is phenomenal
+  message1: swiggity swooty
+  message2: Hippity hoppity
+  message3: bippity boppity
+  messageChoice: 4
+  messages:
+  - Celeste is
+  - the best
+  - game ever
+  - 
 --- !u!4 &1117692409
 Transform:
   m_ObjectHideFlags: 0

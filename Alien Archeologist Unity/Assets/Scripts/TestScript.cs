@@ -41,7 +41,7 @@ public class TestScript : MonoBehaviour
         }
         */
 
-        if (messageChoice > 0 && messageChoice < messages.Length) 
+        if (messageChoice >=1 && messageChoice <= messages.Length) 
         {
             Debug.Log(messages[messageChoice - 1]);
         }
@@ -49,7 +49,14 @@ public class TestScript : MonoBehaviour
         {
             Debug.LogWarning("invalid message choice");
         }
+        
+        
+        for (int i = 0; i < messages.Length; ++i)
+        {
+            Debug.Log(messages[i]);
+        }
 
+        
     }
 
     // Update is called once per frame

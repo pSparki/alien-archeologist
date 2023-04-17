@@ -8,7 +8,7 @@ public class PlayerShmovement : MonoBehaviour
     //reference to a rigid body 2d component
     private Rigidbody2D physicsBody = null;
 
-    public float speed = 1;
+    public float speed = 50;
 
     public float jumpspeed = 10;
 

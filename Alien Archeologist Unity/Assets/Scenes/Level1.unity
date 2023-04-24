@@ -4915,6 +4915,7 @@ GameObject:
   - component: {fileID: 824170084}
   - component: {fileID: 824170087}
   - component: {fileID: 824170088}
+  - component: {fileID: 824170089}
   m_Layer: 0
   m_Name: Epstein
   m_TagString: Player
@@ -5045,6 +5046,20 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &824170089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824170083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b33ddd6f2d43140a61322c9d3742d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 50
+  targetScene: TitleScene
 --- !u!1 &945621154
 GameObject:
   m_ObjectHideFlags: 0
@@ -5825,6 +5840,7 @@ GameObject:
   - component: {fileID: 1925374536}
   - component: {fileID: 1925374535}
   - component: {fileID: 1925374534}
+  - component: {fileID: 1925374538}
   m_Layer: 0
   m_Name: character_0005
   m_TagString: Untagged
@@ -5929,10 +5945,23 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925374533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.18, y: 4.27, z: 0}
+  m_LocalPosition: {x: 9.17, y: 0.82, z: 0}
   m_LocalScale: {x: 4.436, y: 4.1306, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1925374538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925374533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fc9d3a73576fb45aa7d211223493be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazardDamage: 25
